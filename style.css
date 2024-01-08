@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
 }
-/* this is header section */
+/* header */
 .header {
   font-family: "Merriweather Sans", sans-serif;
   font-family: "Open Sans", sans-serif;
@@ -41,9 +41,10 @@
   font-weight: 900;
   line-height: 75px;
 }
-/* this is main body */
-.main-body {
+/* main body */
+#offers {
   font-family: "Inter", sans-serif;
+  text-align: center;
 }
 .off {
   color: red;
@@ -65,14 +66,89 @@
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: normal;
 }
 .category {
   color: #070211;
-margin-top: 16px;
+  margin-top: 16px;
   text-align: center;
   font-size: 32px;
   font-weight: 650;
   line-height: normal;
+}
+#offers .discount img {
+  margin-top: 48px;
+  margin-left: 399px;
+  margin-right: 399px;
+  width: 450px;
+  height: 250px;
+  flex-shrink: 0;
+}
+#welcome {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(./resources/Vectorrr.png);
+    background-position: center;
+  justify-content: space-around;
+    margin-top: 110px;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: flex;
+  background-repeat: no-repeat;
+  width: 1300px;
+  height: 600px;
+  border-radius: 15px;
+  align-items: normal;
+  
+}
+.party {
+  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+#welcome .party h2 {
+  width: 700px;
+  margin-left: 110px;
+  margin-top: 126px;
+/* margin-right: 552px; */
+  margin-bottom: 0px;
+  color: #fff;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 66px;
+  letter-spacing: 6px;
+}
+#welcome .party p {
+    width: 697px;
+    margin-top: 24px;
+    margin-left: 110px;
+   /* margin-right: 550px; */
+    margin-bottom: 0px;
+    color: rgba(255, 255, 255, 0.80);
+font-size: 10px;
+font-weight: 400;
+line-height: 30px;
+}
+.button {
+    margin-top: 48px;
+    margin-left: 158px;
+    /* margin-right: 1059px; */
+    margin-bottom: 142px;
+    color: #FFF;
+background-color: transparent;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+text-shadow: none;
+}
+#welcome img {
+    margin-top: 78px;
+    margin-bottom: 68px;
+    margin-right: 150px;
+    display: flex;
+width: 300px;
+height: 450px;
+align-items: center;
 }
